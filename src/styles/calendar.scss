@@ -5,6 +5,9 @@
   flex-wrap: wrap;
   width: $calendar-width;
   gap: $day-gap;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
 
   $days: ('mon' 0, 'tue' 1, 'wed' 2, 'thu' 3, 'fri' 4, 'sat' 5, 'sun' 6);
 
